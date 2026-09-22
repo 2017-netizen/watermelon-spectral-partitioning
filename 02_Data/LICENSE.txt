@@ -1,0 +1,10 @@
+Copyright (c) 2026 Yinxue Wei and the contributing authors.
+
+The research data in this directory are licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribute the authors, cite this dataset and its archived release DOI when
+available, link to the license, and indicate any changes. No endorsement by
+the authors is implied. See CITATION.cff for the author list.

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this code/data release and the associated manuscript; add the release DOI after publication of the archive."
+title: "Watermelon spectral partitioning and SSC prediction: code and data"
+type: software
+authors:
+  - family-names: Wei
+    given-names: Yinxue
+  - family-names: Wang
+    given-names: Kexiang
+  - family-names: Zhang
+    given-names: Shaoming
+  - family-names: Geng
+    given-names: Xinli
+  - family-names: He
+    given-names: Weizhong
+  - family-names: Mi
+    given-names: Tiezhu
+  - family-names: Li
+    given-names: Peng
+  - family-names: Wang
+    given-names: Baogang
+  - family-names: Dai
+    given-names: Sihui
+  - family-names: Zhang
+    given-names: Chao
+keywords:
+  - watermelon
+  - spectroscopy
+  - soluble solids content
+  - peel thickness
+license: MIT

@@ -1,0 +1,9 @@
+04_Model_results/
+*.asv
+*.log
+__pycache__/
+.mplconfig/
+.DS_Store
+Thumbs.db
+03_Code/Dependencies/spxy.m
+03_Code/Dependencies/projections_qr.m

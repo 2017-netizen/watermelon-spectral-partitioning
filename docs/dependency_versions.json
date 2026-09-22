@@ -1,0 +1,57 @@
+[
+  {
+    "file": "airPLS.m",
+    "sha256": "548208af065551d759b6a5902e3d7e442a92c28e2ec311b42158d0bccce538aa",
+    "bundled": true
+  },
+  {
+    "file": "carspls.m",
+    "sha256": "18cb6d7abb18513cc27d2569dc2123dd2a3178639a823dbc9d6e898f32d5c148",
+    "bundled": true
+  },
+  {
+    "file": "plscv.m",
+    "sha256": "29feefbd0581db45262614bbccfdbce05e3db2102b17d7246b6c892e76a97121",
+    "bundled": true
+  },
+  {
+    "file": "plsnipals.m",
+    "sha256": "17c6df60b6711d6f95afbd7141f058b9f1640deba4db93326f76a757ae97e913",
+    "bundled": true
+  },
+  {
+    "file": "pls_.m",
+    "sha256": "e5e36cc420569da03b1b0a94477926301331b2b6b934ac13150c11934ff0486d",
+    "bundled": true
+  },
+  {
+    "file": "pretreat.m",
+    "sha256": "cf528eed0ba9980b25c4a5d456d7b59b31ecc4899081cda80f12b9f5593f3b03",
+    "bundled": true
+  },
+  {
+    "file": "projections_qr.m",
+    "sha256": "0c0ae9345d51c9bd48e1c0682bcf98ca8216616a28cfcbab9a8bdd22a030e99e",
+    "bundled": false
+  },
+  {
+    "file": "randomfrog_pls.m",
+    "sha256": "23dbeae15a11ff992cb6ccb390bfe4e226e633f27626c0723ab351f9ad289efd",
+    "bundled": true
+  },
+  {
+    "file": "spxy.m",
+    "sha256": "23df4ac7f898c0c9c28578472befe0663a411f85a7f9f7330f6ee2a955b5feca",
+    "bundled": false
+  },
+  {
+    "file": "tp.m",
+    "sha256": "2a6be19166739be9d46e11217e9e8c2da3aed361eb1cdb679c92ba4c729cfbf7",
+    "bundled": true
+  },
+  {
+    "file": "vip.m",
+    "sha256": "fb490034b7ca8fd8e01b12eaefa09bd78d7616c4c602fd4e1409a27c5d4b2ad5",
+    "bundled": true
+  }
+]
