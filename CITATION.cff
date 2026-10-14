@@ -1,7 +1,13 @@
 cff-version: 1.2.0
-message: "Please cite this code/data release and the associated manuscript; add the release DOI after publication of the archive."
+message: "If you use this code/data release, please cite the archived release."
 title: "Watermelon spectral partitioning and SSC prediction: code and data"
+version: "1.0.0"
+doi: "10.5281/zenodo.22891852"
+date-released: "2026-09-22"
+repository-code: "https://github.com/2017-netizen/watermelon-spectral-partitioning"
+url: "https://doi.org/10.5281/zenodo.22891852"
 type: software
+abstract: "MATLAB code and data for spectral partitioning of watermelon peel-thickness response and evaluation of wavelength ranges for soluble solids content prediction."
 authors:
   - family-names: Wei
     given-names: Yinxue

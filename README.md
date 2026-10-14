@@ -1,6 +1,8 @@
 # Watermelon spectral partitioning and SSC prediction
 
-MATLAB code and data for **Spectral partitioning of peel thickness effects and evaluation of wavelength ranges for soluble solids prediction in watermelon**.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22891852.svg)](https://doi.org/10.5281/zenodo.22891852)
+
+MATLAB code and data for **Screening spectral regions with low peel-thickness response for watermelon soluble solids content prediction**.
 
 ## Data and scope
 
@@ -8,7 +10,7 @@ MATLAB code and data for **Spectral partitioning of peel thickness effects and e
 - 372 SSC spectra from 99 fruits; 151 wavelengths at 2 nm spacing from 650 to 950 nm.
 - Cultivar: L600 (*Citrullus lanatus*). Input and figure/table source data are in `02_Data/L600_Data_Consolidated_EN_V02.xlsx`.
 - Results use record-level splits. Records from the same fruit may cross folds. Preprocessing/regressor choice was made outside the outer validation loop; CARS is fitted on outer training data and is not reselected inside every inner SVR fold. Results are conditional internal estimates, not independent-fruit validation.
-- The workbook does not provide a verified fruit-ID mapping. Do not invent fruit grouping from row numbers. SSC record indices <=150 denote the 2026 competition subset in the original scripts; the remaining indices denote the 2025 market subset.
+- The workbook does not provide a verified fruit-ID mapping. Record indices identify spectral records and cannot be used to group observations by fruit. SSC record indices <=150 denote the 2025 competition subset (collected on 24 May 2025 at the 37th National Watermelon and Melon Competition) in the original scripts; the remaining indices denote the 2025 market subset.
 
 ## Requirements
 
@@ -59,12 +61,8 @@ run_reproduction('summaries')     % Requires fixed, refine, nested, boundary out
 
 The 4-range definitions used for SSC comparisons are fixed in the modeling scripts to the manuscript ranges (650–688, 690–746, 748–826, 828–950 nm). The segmentation stage provides the supporting thickness-only partition evidence; it does not automatically optimize the SSC ranges.
 
-The legacy function name `stage2_l600_s3_models` is retained for traceability. Its default now runs `all4test`; obsolete modes depending on an absent historical segmentation file were removed. `smoke` uses the full spectrum and S3 with reduced settings and must not replace manuscript results.
-
-## Validation and provenance
-
-See [audit notes](docs/AUDIT.md). Model arithmetic, manuscript-mode grids, seeds, and supplied data values were preserved. The release check is a small operational test, not a rerun of all reported models. Manuscript drafting tools, personal paths, author correspondence, temporary files and historical manuscript revisions are not part of this repository.
+The function `stage2_l600_s3_models` runs `all4test` by default. `smoke` uses the full spectrum and S3 with reduced settings and must not replace manuscript results.
 
 ## Citation and reuse
 
-See `CITATION.cff`; add the final release DOI after archiving. The manuscript is not represented as published or accepted. Third-party copyrights and licenses remain in force. The authors' own code/documentation use the MIT license (`LICENSE`); data use CC BY 4.0 (`02_Data/LICENSE.txt`).
+Archived release v1.0.0: [https://doi.org/10.5281/zenodo.22891852](https://doi.org/10.5281/zenodo.22891852). Use `CITATION.cff` or GitHub's **Cite this repository** menu for citation metadata. The manuscript is not represented as published or accepted. Third-party copyrights and licenses remain in force. The authors' own code/documentation use the MIT license (`LICENSE`); data use CC BY 4.0 (`02_Data/LICENSE.txt`).
